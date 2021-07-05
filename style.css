@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #252525;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+
+
+
+table{
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#visor{
+  padding: 5px 5px 5px 0px;
+  text-align: end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid;
+  height: 30px;
+}
+
+
+
+button{
+  display: block;
+  padding: 15px 25px;
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  background-color: #a8a8a8;
+  border-radius: 2px;
+
+  transition: .2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+button:hover{
+  color: #cecece;
+  background-color: #333333;
+
+}
+
+.btn-igual{
+  background-color: #f00;
+  color: white;
+}
